@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="vehicles.css">
+    <title>Edit Vechile</title>
+</head>
+<body>
+
+
+  <!--..............Navbar......................-->
+
+
+<nav class="navbar navbar-expand-lg postionNavbar  bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand navbarHeader"><span class="text-warning"><i class="fa-solid fa-car-burst"></i></span>RentDrive</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active navbarText" aria-current="page" href="/ownerHome.html">Home</a>
+        </li>
+
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a class="nav-link active navbarText " aria-current="page"  href="#" >Logout</a>
+            </li>
+            
+          </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+<!--.....................-->
+
+<br>
+<br>
+<br>
+    
+
+    
+<div class="create-vechile">
+  <div class="container mt-5">
+      <div class="caption text-center text-capitalize">
+          <h2 class="fw-bold position-relative ">create vechile</h2>
+          <p class="fw-light">here you can add vechile</p>
+      </div>
+        <div  class=" p-2 w-50 test">
+          <form action="">
+              <div class="contant mt-5 ">
+                  <div class="mb-3 input w-100">
+                      <input type="text" class="form-control" name="carName" id="exampleFormControlInput1" placeholder="Vechile Name">
+                    </div>
+
+                    <div class="mb-3 input w-100">
+                      <input type="text" class="form-control" name="carDesc" id="exampleFormControlInput2" placeholder="Vechile Description">
+                    </div>
+
+
+
+                  <div class="mb-3 input w-100">
+                      <input type="text" class="form-control" name="carAddress" id="exampleFormControlInput3" placeholder="Vechile Address">
+                    </div>
+
+
+                  <div class="mb-3 input w-100">
+                      <input type="number" class="form-control" name="noOfPassengers" id="exampleFormControlInput4" placeholder="Vechile number of passenger">
+                    </div>
+                  <div class="mb-3 input w-100">
+                      <input type="text" class="form-control" name="carLicense" id="exampleFormControlInput5" placeholder="Vechile License">
+                    </div>
+                  <div class="mb-3 input w-100">
+                      <input type="text" class="form-control" name="carPricePerDay" id="exampleFormControlInput6" placeholder="Vechile Price byDay">
+                    </div>
+                    <div class="mb-3">
+                      <input class="form-control" type="file" name="carCoverImage" id="formFile">
+                    </div>
+                   <div class="mb-3">
+                      <button type="submit" class="btn btn-primary" id="createButton">Create</button>
+                   </div>
+                    
+              </div>
+                
+          </form>
+        </div>
+  </div>
+  <div class="alert alert-success d-none" role="alert" id="addingMovie">
+
+
+
+
+  </div>
+
+</div>
+
+<script src="https://kit.fontawesome.com/0ea0c5df0a.js" crossorigin="anonymous"></script>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>   
+<script src="editvechile.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.caption h2::after{
+    content: '';
+    background-color: #156EEA;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: -140%;
+    transform: translate(-50%, -50%);
+}
+
+.curd:hover .card-img{
+    transform: scale(1.1,1.1);
+}
+.card-img{
+    transition: all 1s;
+}
+
+/* .create-vechile .contant .input{
+    position: absolute;
+    left: 50%;
+} */
+
+.test{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbarText{
+
+    color: white !important;
+    
+    font-size: 23px;
+    
+    font-weight: 700;
+    
+    
+    
+    
+    }
+    
+    .navbarHeader{
+    
+        font-size: 27px;
+    
+        font-weight: 700;
+    
+        color: aliceblue;
+    
+    
+    }
+    
+    .navbarText:hover{
+    
+        color: rgba(255, 234, 0, 0.822) !important;
+    }
+    
+    .postionNavbar{
+    
+        position: fixed;
+    
+        top: 0;
+        left: 0;
+        right: 0;
+    
+        z-index: 123456;
+    
+    }
+
+    .image1{
+
+        width: 450px;
+        height: 420px;
+
+    }
+
+    .page{
+
+
+        height: 1500px;
+
+
+    }
