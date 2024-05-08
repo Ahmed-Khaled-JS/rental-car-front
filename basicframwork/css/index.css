@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.custom-submit-button{
+    margin: 10px 0 10px 30px;
+    width: 80%;
+}
+.plink{
+    text-align: center;
+    font-size: small;
+}
+.bg{
+    background-image: url("../images/istockphoto-1498995120-1024x1024.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    margin-left: 100px;
+}
