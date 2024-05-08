@@ -1,0 +1,100 @@
+
+
+.navbarText{
+
+color: white !important;
+
+font-size: 23px;
+
+font-weight: 700;
+
+
+
+
+}
+
+.navbarHeader{
+
+    font-size: 27px;
+
+    font-weight: 700;
+
+    color: aliceblue;
+
+
+}
+
+.navbarText:hover{
+
+    color: rgba(255, 234, 0, 0.822) !important;
+}
+
+.postionNavbar{
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 123456;
+
+}
+
+.main{
+
+background-image: url(images/modern-8490432_1280.jpg);
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+height: 100vh;
+
+}
+
+.welcome{
+
+
+    text-align: center;
+
+    color: white;
+
+    position: relative;
+
+    top: 380px;
+
+
+    font-size: 50px;
+
+    font-weight: 800;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.owner{
+
+    height: 2000px;
+}
+
+
+h1 {
+    text-shadow: 2px 2px gray;
+  }
+
+  .text2{
+
+
+    font-size: 25px;
+    text-align: center;
+
+  }
+  .boxShadow{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+
+
+  .cursorPointer{
+
+    cursor: pointer;
+  }
